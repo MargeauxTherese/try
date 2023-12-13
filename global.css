@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-italiana: Italiana;
+
+  /* font sizes */
+  --font-size-22xl: 41px;
+  --font-size-62xl: 81px;
+
+  /* Colors */
+  --color-white: #fff;
+}

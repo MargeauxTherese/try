@@ -1,0 +1,148 @@
+.design-1-icon1 {
+  position: absolute;
+  top: 3010px;
+  left: 816px;
+  width: 703px;
+  height: 581px;
+  object-fit: cover;
+}
+.blog-entries-icon,
+.design-2-icon,
+.internet-icon {
+  position: absolute;
+  top: 3044px;
+  left: 0;
+  width: 854px;
+  height: 547px;
+  object-fit: cover;
+}
+.blog-entries-icon,
+.internet-icon {
+  top: 258px;
+  left: 286px;
+  width: 947px;
+  height: 513px;
+}
+.internet-icon {
+  top: 732px;
+  left: 402px;
+  width: 715px;
+  height: 671px;
+}
+.computing-icon,
+.internet-icon1,
+.www-icon {
+  position: absolute;
+  top: 1255px;
+  left: 405px;
+  width: 709px;
+  height: 728px;
+  object-fit: cover;
+}
+.internet-icon1,
+.www-icon {
+  top: 2022px;
+  height: 712px;
+}
+.internet-icon1 {
+  top: 2715px;
+  height: 560px;
+}
+.goxxy-logo-icon2,
+.header-icon2,
+.stars-icon3 {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  width: 1513px;
+  height: 275px;
+  object-fit: cover;
+}
+.goxxy-logo-icon2,
+.stars-icon3 {
+  top: 120px;
+  left: 615px;
+  width: 287.6px;
+  height: 104.6px;
+}
+.goxxy-logo-icon2 {
+  top: 4px;
+  left: 62px;
+  width: 158.5px;
+  height: 73.4px;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.795), 0.699;
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+.blog-entries2,
+.flex-page2,
+.home2 {
+  position: absolute;
+  top: 4px;
+  left: 289.6px;
+  display: inline-block;
+  width: 116.9px;
+  height: 53.3px;
+  transition: text-shadow 0.5s;
+}
+.blog-entries2:hover,
+.flex-page2:hover,
+.home2:hover{
+  animation: glow 2s infinite; 
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+.blog-entries2,
+.flex-page2 {
+  top: 0;
+  left: 0;
+  width: 221.5px;
+  height: 38.2px;
+}
+.flex-page2 {
+  left: 474.6px;
+}
+.header-group3,
+.navbar1 {
+  position: absolute;
+  top: 12px;
+  left: 411px;
+  width: 696.1px;
+  height: 57.3px;
+}
+.header-group3 {
+  top: -2px;
+  left: 0;
+  width: 1519px;
+  height: 1430px;
+}
+.index2 {
+  position: relative;
+  width: 1519px;
+  height: 3591px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(./public/index2@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.blog-frame {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-22xl);
+  color: var(--color-white);
+  font-family: var(--font-italiana);
+}

@@ -1,0 +1,386 @@
+.header-icon,
+.stars-icon {
+  position: absolute;
+  top: -307px;
+  left: 9px;
+  width: 1515px;
+  height: 307px;
+  object-fit: cover;
+}
+.stars-icon {
+  top: -284px;
+  left: 617px;
+  width: 287.6px;
+  height: 106px;
+}
+.header-group {
+  position: absolute;
+  top: 4877px;
+  left: -7px;
+  width: 1524px;
+  height: 0px;
+}
+.goxxy-logo-icon,
+.header-icon1,
+.stars-icon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1520px;
+  height: 215px;
+  object-fit: cover;
+}
+.goxxy-logo-icon,
+.stars-icon1 {
+  top: 135px;
+  left: 633px;
+  width: 287.6px;
+  height: 106px;
+}
+.goxxy-logo-icon {
+  top: 0;
+  left: 65px;
+  width: 158.5px;
+  height: 74.4px;
+}
+.header-group1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1519px;
+  height: 241px;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.fb-icon,
+.ig-icon,
+.tiktok-icon {
+  position: relative;
+  width: 41px;
+  height: 43px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: box-shadow 0.5s;
+}
+
+.fb-icon:hover,
+.ig-icon:hover,
+.tiktok-icon:hover {
+  animation: glow 2s infinite;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+.fb-icon,
+.tiktok-icon {
+  width: 42px;
+}
+
+.tiktok-icon {
+  width: 41px;
+  height: 44px;
+}
+
+.ig-parent {
+  position: absolute;
+  top: 4800px;
+  left: 623px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 70px;
+  z-index: 50;
+}
+.hello-fashionista1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  -webkit-text-stroke: 1px #fff;
+}
+.hello-fashionista,
+.i-am-margeaux {
+  position: absolute;
+  top: 260px;
+  left: 223px;
+  width: 897px;
+  height: 97px;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.hello-fashionista,
+.i-am-margeaux {
+  position: absolute;
+  width: 897px;
+  height: 97px;
+}
+
+.i-am-margeaux {
+  top: 357px;
+  left: 223px;
+  font-size: 55px;
+  display: inline-block;
+  width: 816px;
+  height: 92px;
+  color: #fff; /* Set the text color */
+  transition: text-shadow 0.5s; /* Add transition for smoother effect */
+}
+
+.i-am-margeaux:hover {
+  animation: glow 2s infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.bg-model-icon,
+.model-image-icon {
+  position: absolute;
+  top: 106.8px;
+  left: 850.5px;
+  width: 496.1px;
+  height: 873.5px;
+  object-fit: cover;
+}
+.model-image-icon {
+  top: 0;
+  left: 732px;
+  width: 698px;
+  height: 982px;
+  
+}
+.icon,
+.star-6-icon,
+.video-frame-icon {
+  position: absolute;
+  top: 3731px;
+  left: 341px;
+  width: 822px;
+  height: 460px;
+  object-fit: cover;
+}
+.icon,
+.star-6-icon {
+  top: 134px;
+  left: 115px;
+  width: 187px;
+  height: 187px;
+}
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+
+.icon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+  transition: transform 0.5s; /* Add transition for smoother scaling effect */
+}
+
+.icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('path/to/your-icon.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+  z-index: -1;
+}
+
+.icon:hover::before {
+  opacity: 1;
+  animation: glow 2s infinite;
+}
+.about-me-interaction,
+.design-3-icon {
+  position: absolute;
+  top: 432px;
+  left: 266px;
+  width: 481px;
+  height: 315px;
+}
+.design-3-icon {
+  top: 647px;
+  left: 699px;
+  width: 95px;
+  height: 100px;
+  object-fit: cover;
+}
+.hero-section,
+.interaction {
+  position: absolute;
+  top: 272px;
+  left: 16px;
+  width: 1440px;
+  height: 1204px;
+}
+.interaction {
+  top: 1710px;
+  left: 286px;
+  width: 844px;
+  height: 110px;
+}
+.chat-box-icon,
+.star-4-icon,
+.star-5-icon {
+  position: absolute;
+  top: 2773px;
+  left: 370px;
+  width: 780px;
+  height: 754px;
+  object-fit: cover;
+}
+.star-4-icon,
+.star-5-icon {
+  top: 1512px;
+  left: 666px;
+  width: 139px;
+  height: 111px;
+}
+.star-4-icon {
+  top: 1226px;
+}
+.get-to-know-me,
+.i-am-image,
+.star-1-icon,
+.star-2-icon,
+.star-3-icon {
+  position: absolute;
+  top: 2561px;
+  left: 690px;
+  width: 139px;
+  height: 111px;
+  object-fit: cover;
+}
+.get-to-know-me,
+.i-am-image,
+.star-1-icon,
+.star-2-icon {
+  top: 3500px;
+}
+.get-to-know-me,
+.i-am-image,
+.star-1-icon {
+  top: 3645px;
+}
+.get-to-know-me,
+.i-am-image {
+  top: 1719px;
+  left: 322px;
+  width: 875px;
+  height: 719px;
+}
+.get-to-know-me {
+  top: 1685px;
+  left: 329px;
+  width: 862px;
+  height: 135px;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.795), 0.699;
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+.blog-entries,
+.flex-page,
+.home{
+  position: absolute;
+  top: 4.1px;
+  left: 289.6px;
+  display: inline-block;
+  width: 116.9px;
+  height: 54px;
+  transition: text-shadow 0.5s;
+}
+  .blog-entries:hover,
+  .flex-page:hover,
+  .home:hover {
+    animation: glow 2s infinite; 
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.blog-entries,
+.flex-page {
+  top: 0;
+  left: 0;
+  width: 221.5px;
+  height: 38.7px;
+}
+.flex-page {
+  left: 474.6px;
+}
+.navbar {
+  position: absolute;
+  top: 8px;
+  left: 412px;
+  width: 696.1px;
+  height: 58.1px;
+  font-size: var(--font-size-22xl);
+}
+.home-frame {
+  position: relative;
+  width: 100%;
+  height: 4877px;
+  background-image: url(./public/home-frame@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-62xl);
+  color: var(--color-white);
+  font-family: var(--font-italiana);
+}
+
+.video-section {
+  position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1299px;
+    top: 3321px;
+    left: 356px;
+    width: 791px;
+}

@@ -1,0 +1,184 @@
+.header-design-icon {
+  position: absolute;
+  top: 7px;
+  left: 2px;
+  width: 1554px;
+  height: 1438px;
+  object-fit: cover;
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.795), 0.699;
+  }
+  100% {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+}
+.blog-entries1,
+.flex-page1,
+.home1 {
+  position: absolute;
+  top: 4.1px;
+  left: 289.6px;
+  display: inline-block;
+  width: 116.9px;
+  height: 53.9px;
+  transition: text-shadow 0.5s;
+}
+.blog-entries1:hover,
+.flex-page1:hover,
+.home1:hover {
+  animation: glow 2s infinite; 
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+.blog-entries1,
+.flex-page1 {
+  top: 0;
+  left: 0;
+  width: 221.5px;
+  height: 38.6px;
+}
+.flex-page1 {
+  left: 474.6px;
+}
+.home-parent {
+  position: absolute;
+  top: 16px;
+  left: 429px;
+  width: 696.1px;
+  height: 58px;
+}
+.goxxy-logo-icon1,
+.stars-icon2 {
+  position: absolute;
+  top: 107px;
+  left: 606px;
+  width: 287.6px;
+  height: 105.8px;
+  object-fit: cover;
+}
+.goxxy-logo-icon1 {
+  top: 7px;
+  left: 65px;
+  width: 158.5px;
+  height: 74.2px;
+}
+.header-group2 {
+  position: absolute;
+  top: -7px;
+  left: -2px;
+  width: 1440px;
+  height: 1443px;
+}
+.flex-page-icon,
+.pic-1-icon {
+  position: absolute;
+  top: 3119px;
+  left: 180px;
+  width: 1080px;
+  height: 710px;
+  object-fit: cover;
+}
+.flex-page-icon,
+.pic-1-icon {
+  top: 153px;
+  left: 353px;
+  width: 844px;
+  height: 518px;
+}
+.pic-1-icon {
+  top: 565px;
+  left: 511px;
+  width: 498px;
+  height: 480px;
+}
+.charcoal-icon,
+.dance-icon,
+.grad-pic-icon {
+  position: absolute;
+  top: 2245px;
+  left: 104px;
+  width: 646px;
+  height: 697px;
+  object-fit: cover;
+}
+.dance-icon,
+.grad-pic-icon {
+  top: 2255px;
+  left: 789px;
+  width: 660px;
+  height: 676px;
+}
+.grad-pic-icon {
+  top: 1274px;
+  left: 135px;
+  width: 625px;
+  height: 546px;
+}
+.awards-icon,
+.masts-pic-icon,
+.moments-icon {
+  position: absolute;
+  top: 1247px;
+  left: 775px;
+  width: 668px;
+  height: 557px;
+  object-fit: cover;
+}
+.awards-icon,
+.moments-icon {
+  top: 1790px;
+  left: 501px;
+  width: 518px;
+  height: 552px;
+}
+.moments-icon {
+  top: 2867px;
+  left: 428px;
+  width: 663px;
+  height: 680px;
+}
+.flex-frame,
+.index3 {
+  width: 1519px;
+  height: 3829px;
+}
+.index3 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(./public/index3@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.flex-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.flex-frame-parent {
+  position: relative;
+  width: 100%;
+  height: 3829px;
+  text-align: left;
+  font-size: var(--font-size-22xl);
+  color: var(--color-white);
+  font-family: var(--font-italiana);
+}
+.footer-icon {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+  top: 3000px;
+  background-size: cover;
+  background-position: bottom; 
+}
